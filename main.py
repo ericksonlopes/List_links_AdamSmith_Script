@@ -34,7 +34,8 @@ def find_url(id_find: int, driver: webdriver):
 if __name__ == '__main__':
     driver_for = auto_driver()
 
-    for num in range(10000):
+    for num in range(5765, 10000):
+        print(num)
         find_url(num, driver_for)
 
     driver_for.close()
